@@ -1,0 +1,43 @@
+S.No,Row,Description
+1,TARGET,"Target variable (1 - client with payment difficulties: he/she had late payment more than X days on at least one of the first Y installments of the loan in our sample, 0 - all other cases)"
+2,NAME_CONTRACT_TYPE,Identification if loan is cash or revolving
+3,CODE_GENDER,Gender of the client
+4,FLAG_OWN_CAR,Flag if the client owns a car
+5,FLAG_OWN_REALTY,Flag if client owns a house or flat
+6,CNT_CHILDREN,Number of children the client has
+7,AMT_INCOME_TOTAL,Income of the client
+8,AMT_CREDIT,Credit amount of the loan
+9,AMT_ANNUITY,Loan annuity
+10,NAME_TYPE_SUITE,Who was accompanying client when he was applying for the loan
+11,NAME_INCOME_TYPE,"Clients income type (businessman, working, maternity leave,É)"
+12,NAME_EDUCATION_TYPE,Level of highest education the client achieved
+13,NAME_FAMILY_STATUS,Family status of the client
+14,NAME_HOUSING_TYPE,"What is the housing situation of the client (renting, living with parents, ...)"
+15,REGION_POPULATION_RELATIVE,Normalized population of region where client lives (higher number means the client lives in more populated region)
+16,DAYS_BIRTH,Client's age in days at the time of application
+17,DAYS_EMPLOYED,How many days before the application the person started current employment
+18,DAYS_REGISTRATION,How many days before the application did client change his registration
+19,DAYS_ID_PUBLISH,How many days before the application did client change the identity document with which he applied for the loan
+20,OWN_CAR_AGE,Age of client's car
+21,FLAG_EMP_PHONE,"Did client provide work phone (1=YES, 0=NO)"
+22,FLAG_PHONE,"Did client provide home phone (1=YES, 0=NO)"
+23,FLAG_EMAIL,"Did client provide email (1=YES, 0=NO)"
+24,OCCUPATION_TYPE,What kind of occupation does the client have
+25,CNT_FAM_MEMBERS,How many family members does client have
+26,REGION_RATING_CLIENT,"Our rating of the region where client lives (1,2,3)"
+27,REGION_RATING_CLIENT_W_CITY,"Our rating of the region where client lives with taking city into account (1,2,3)"
+28,WEEKDAY_APPR_PROCESS_START,On which day of the week did the client apply for the loan
+29,HOUR_APPR_PROCESS_START,Approximately at what hour did the client apply for the loan
+30,REG_REGION_NOT_LIVE_REGION,"Flag if client's permanent address does not match contact address (1=different, 0=same, at region level)"
+31,REG_REGION_NOT_WORK_REGION,"Flag if client's permanent address does not match work address (1=different, 0=same, at region level)"
+32,LIVE_REGION_NOT_WORK_REGION,"Flag if client's contact address does not match work address (1=different, 0=same, at region level)"
+33,REG_CITY_NOT_LIVE_CITY,"Flag if client's permanent address does not match contact address (1=different, 0=same, at city level)"
+34,REG_CITY_NOT_WORK_CITY,"Flag if client's permanent address does not match work address (1=different, 0=same, at city level)"
+35,LIVE_CITY_NOT_WORK_CITY,"Flag if client's contact address does not match work address (1=different, 0=same, at city level)"
+36,ORGANIZATION_TYPE,Type of organization where client works
+37,AMT_REQ_CREDIT_BUREAU_HOUR,Number of enquiries to Credit Bureau about the client one hour before application
+38,AMT_REQ_CREDIT_BUREAU_DAY,Number of enquiries to Credit Bureau about the client one day before application (excluding one hour before application)
+39,AMT_REQ_CREDIT_BUREAU_WEEK,Number of enquiries to Credit Bureau about the client one week before application (excluding one day before application)
+40,AMT_REQ_CREDIT_BUREAU_MON,Number of enquiries to Credit Bureau about the client one month before application (excluding one week before application)
+41,AMT_REQ_CREDIT_BUREAU_QRT,Number of enquiries to Credit Bureau about the client 3 month before application (excluding one month before application)
+42,AMT_REQ_CREDIT_BUREAU_YEAR,Number of enquiries to Credit Bureau about the client one day year (excluding last 3 months before application)
